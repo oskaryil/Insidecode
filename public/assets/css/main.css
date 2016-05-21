@@ -1,0 +1,179 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar-custom {
+	background-color: #1e1e20;
+    color:#ffffff;
+  	border-radius:0;
+  	border: none;
+}
+  
+.navbar-custom .navbar-nav > li > a {
+  	color:#d9cb9e;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+	background-color:transparent;
+}
+      
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #AC2E21;
+    color: #fff;
+}
+      
+.navbar-custom .navbar-brand {
+  	color:#eeeeee;
+}
+.navbar-custom .navbar-toggle {
+	border: none;
+	margin-top: 12px;
+}
+
+.navbar-custom .navbar-toggle:focus {
+	border: 1px solid #d9cb9e;
+	background-color: #AC2E21;
+
+}
+
+
+.brand-logo {
+	height: 100px;
+}
+
+.navbar-custom .nav-list {
+	margin-right: 12px;
+}
+
+.jumbotron {
+	background: url('../img/bg-1080.jpg') no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	border-radius: 0 !important;
+	border: none;
+}
+
+.header-text {
+	color: #fff !important;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	line-height: 42px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.circle {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+    -webkit-transition: background-color 1.5s;
+       -moz-transition: background-color 1.5s;
+        -ms-transition: background-color 1.5s;
+         -o-transition: background-color 1.5s;
+            transition: background-color 1.5s;
+    margin: 0 auto;
+}
+
+#pre-about {
+	margin-top: 48px;
+	margin-bottom: 72px;
+}
+
+.circle i {
+	margin-top: 24px;
+	display: inline-block;
+	width: 100%;
+	color: #AC2E21;
+}
+
+.circle i:hover {
+	color: #fff;
+}
+
+.circle:hover {
+	background-color: #AC2E21;
+	color: #fff;
+}
+
+.thin-vertical {
+	
+}
+
+.circle-info {
+	font-family: 'Roboto', sans-serif;
+	border-right: 1px solid grey;
+}
+
+.circle-header {
+	font-weight: 700;
+}
+
+.circle-about {
+	font-size: 1.25em;
+	padding: 10px 20px 0px 20px;
+}
+
+#about {
+	background-color: #dcddd8;
+}
+
+.about-header {
+	margin-top: 48px;
+}
+
+.about-text {
+	font-size: 1.25em;
+	margin-top: 12px;
+	padding-left: 24px;
+}
+
+.team-profile {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.team-member-name, .team-member-about {
+	text-align: center;
+}
+
+.btn-curious {
+	background-color: #374140;
+	color: #fff;
+	border-radius: 0;
+	font-weight: 700;
+	width: 125px;
+	margin-top: 24px;
+}
+
+.btn-curious:hover {
+	color: #fff;
+}
+
+.btn-curious:focus {
+	color: #fff;
+	border: none;
+}
+
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 13px solid transparent;
+	border-right: 13px solid transparent;
+	border-top: 13px solid #fff;
+	margin: 0 auto;
+}
